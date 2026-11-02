@@ -1,17 +1,15 @@
-# Osijek Drone Expo: organizacija
+Osijek Drone Expo: organizacija
 
 Aplikacija za organizaciju izložbe: izlagači i program.
 
-Autor: Vedran Kralj
 
-## Entiteti (CRUD nad oba)
+Entiteti (CRUD nad oba)
 
 - **Izlagač**: naziv, država, e-mail, površina štanda (m²), kotizacija plaćena (kvačica)
 - **Program**: naslov, vrsta (predavanje, demonstracija letenja, radionica), izlagač, datum, trajanje (min), lokacija, snimiti za video (kvačica); svaka točka pripada jednom izlagaču (1 : N)
+izlagaču koji nije platio kotizaciju ne može se dodijeliti termin programa; izlagač s točkama programa ne može se obrisati; e-mail i trajanje se provjeravaju.
 
-Pravila: izlagaču koji nije platio kotizaciju ne može se dodijeliti termin programa; izlagač s točkama programa ne može se obrisati; e-mail i trajanje se provjeravaju.
-
-## Stranice
+Stranice
 
 Početna (platili kotizaciju, točke programa, ukupna površina štandova i nadolazeći program), Izlagači i Program (filtar po vrsti).
 
